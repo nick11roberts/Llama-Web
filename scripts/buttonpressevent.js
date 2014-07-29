@@ -17,3 +17,18 @@ function clickEvent(){
     document.body.appendChild(llama);
 }
 
+function buttonSize(){
+	var button = document.getElementById('button');
+	var windowWidth = window.innerWidth;
+	var windowHeight = window.innerHeight;
+	
+	if (windowWidth >= windowHeight){
+		button.style.width = '20%';
+	}
+	else{
+		button.style.height = '20%';
+	}
+	
+}
+
+
