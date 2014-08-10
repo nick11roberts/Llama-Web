@@ -2,13 +2,37 @@
 
 <html>
 	<head>
+		
 		<title>Llama Button</title>
+		
+		<meta name="viewport" content="user-scalable=0">
+		
 		<link rel="shortcut icon" href = "favicon.ico" type = "image/x-icon"/>
-		<script src="scripts/buttonpressevent.js"></script>
+		
 		<link rel="stylesheet" href = "style/main.css" type="text/css" />
+		
+		<script src="scripts/buttonpressevent.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			function closeIFrame(){
+			     $('#optionsFrame').remove();
+			}
+		</script>
+		
 	</head>
 	
 	<body onload="buttonSize()">
+		
+		
+		<iframe src="options.html" 
+			id="optionsFrame"
+			height="100%" 
+			width="100%" 
+			frameborder="0" 
+			allowTransparency="true">
+		</iframe>
+		
+		
 		<div id="buttonContainer">
 			<img id="button" src= "default_images/button.png" onclick="clickEvent()" alt="Press 4 Llama."/>
 		</div>
