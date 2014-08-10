@@ -7,21 +7,24 @@ body{
 	background: transparent;
 }
 
-#button{
-	position:fixed;
-	left:40%;
-	top:30%;
+#buttonContainer{
+	
+	
 }
 
-#llama{
-	pointer-events:none; /*Not all browsers understand this... Perhaps convert to js.*/
-	width:4%;
-	position:fixed;
+#button{
+	
+    
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;  
+	left: 50%;
 }
 
 .llama{
 	pointer-events:none; /*Not all browsers understand this... Perhaps convert to js.*/
-	width:4%;
 	position:fixed;
 }
 
