@@ -50,7 +50,11 @@ function buttonSize(){
 	
 }
 
-
+function themeApply(){
+	var theme = localStorage.getItem('llamaTheme');
+	//temporary. For debugging. 
+	window.alert(theme);
+}
 
 
 

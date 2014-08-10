@@ -15,6 +15,7 @@
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		
+		<script src="//ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js"></script>
 		
 		
 	</head>
@@ -26,22 +27,46 @@
 			<br />
 			
 			<h4>
-				<form id="themeForm">
+				<form id="themeForm" onsubmit="submitted();">
 					
-					<input type="radio" name="preferred_color" value="Red" /> OPTION ONE<br />
-					<input type="radio" name="preferred_color" value="Blue" /> OPTION TWO<br />
-					<input type="radio" name="preferred_color" value="Green" /> OPTION THREE<br />
+					<input type="radio" id="theme1" name="theme1" value="one" /> OPTION ONE<br />
+					<input type="radio" id="theme2" name="theme2" value="two" /> OPTION TWO<br />
+					<input type="radio" id="theme3" name="theme3" value="three" /> OPTION THREE<br />
 					
 					<br />
 					
-					<input id="submitButton" type="submit" value="SUBMIT.">
+					<input id="submitButton" type="submit" value="SUBMIT." />
 					
 				</form>
 			</h4>
 		</div>
 		
 
-		
+		<script>
+			function submitted(){
+				
+				var select = document.getElementById('themeForm').value;
+				var themeSelectedOption;
+				var checked = true;
+				
+				if(document.getElementById('theme1').checked)
+				    themeSelectedOption = document.getElementById('theme1').value;
+				else if(document.getElementById('theme2').checked)
+				    themeSelectedOption = document.getElementById('theme2').value;
+				else if(document.getElementById('theme3').checked)
+				    themeSelectedOption = document.getElementById('theme3').value;
+				else
+					checked = false;
+				
+
+				if(checked){
+					localStorage.setItem('llamaTheme', themeSelectedOption);
+					parent.closeIFrame();
+				}
+				
+			}
+
+		</script>
 			
 		
 
