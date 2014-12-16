@@ -1,1 +1,0 @@
-Global image defaults should go here. 

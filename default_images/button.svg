@@ -9,11 +9,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="1024"
+   height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="button.svg"
    inkscape:export-filename="C:\Users\Nikolai\Desktop\Llama\Llama pics\button.png"
    inkscape:export-xdpi="90"
@@ -64,20 +64,25 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="383.21619"
-     inkscape:cy="633.59764"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="932.80948"
+     inkscape:cy="396.11919"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1003"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1">
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
-       id="grid3004" />
+       id="grid3004"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -87,87 +92,53 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       transform="translate(4,6)"
-       d="m 560,392.36218 a 220,220 0 1 1 -440,0 220,220 0 1 1 440,0 z"
-       sodipodi:ry="220"
-       sodipodi:rx="220"
-       sodipodi:cy="392.36218"
-       sodipodi:cx="340"
-       id="path3810"
-       style="fill:#0c699c;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#0c699c;fill-opacity:1;stroke:none"
-       id="path3812"
-       sodipodi:cx="340"
-       sodipodi:cy="392.36218"
-       sodipodi:rx="220"
-       sodipodi:ry="220"
-       d="m 560,392.36218 a 220,220 0 1 1 -440,0 220,220 0 1 1 440,0 z"
-       transform="translate(2,4)" />
-    <path
-       transform="translate(0,2)"
-       d="m 560,392.36218 a 220,220 0 1 1 -440,0 220,220 0 1 1 440,0 z"
-       sodipodi:ry="220"
-       sodipodi:rx="220"
-       sodipodi:cy="392.36218"
-       sodipodi:cx="340"
-       id="path3814"
-       style="fill:#0c699c;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#0c699c;fill-opacity:1;stroke:none"
-       id="path3808"
-       sodipodi:cx="340"
-       sodipodi:cy="392.36218"
-       sodipodi:rx="220"
-       sodipodi:ry="220"
-       d="m 560,392.36218 a 220,220 0 1 1 -440,0 220,220 0 1 1 440,0 z"
-       transform="translate(6,8)" />
-    <path
-       d="m 560,392.36218 a 220,220 0 1 1 -440,0 220,220 0 1 1 440,0 z"
-       sodipodi:ry="220"
-       sodipodi:rx="220"
-       sodipodi:cy="392.36218"
-       sodipodi:cx="340"
-       id="path3036"
-       style="fill:#1e8d9c;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
+     id="layer1"
+     transform="translate(0,-28.362153)">
     <flowRoot
        xml:space="preserve"
-       id="flowRoot3008"
-       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Agency FB;-inkscape-font-specification:Agency FB"
-       transform="matrix(1,0,0,1.6842394,-20,-236.54185)"><flowRegion
-         id="flowRegion3010"><rect
-           id="rect3012"
-           width="309.28571"
-           height="307.14285"
-           x="200"
-           y="240.93361"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Agency FB;-inkscape-font-specification:Agency FB" /></flowRegion><flowPara
-         id="flowPara3018">PRESS </flowPara><flowPara
-         id="flowPara3024">~  4  ~ </flowPara><flowPara
-         id="flowPara3026">LLAMA </flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
        id="flowRoot3028"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:72px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center"><flowRegion
+       style="font-size:72px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
          id="flowRegion3030"><rect
            id="rect3032"
            width="62.857143"
            height="130.71428"
            x="308.57144"
            y="395.93362"
-           style="text-anchor:middle;text-align:center" /></flowRegion><flowPara
-         id="flowPara3034"></flowPara></flowRoot>  </g>
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara3034" /></flowRoot>    <path
+       style="fill:#42c7e2;fill-opacity:1;stroke:none"
+       d="M 512 0 C 229.23021 1.5158245e-13 3.9765102e-16 229.23021 0 512 C 0 794.76979 229.23021 1024 512 1024 C 794.76979 1024 1024 794.76979 1024 512 C 1024 229.23021 794.76979 -1.1328919e-13 512 0 z M 96.53125 380.78125 L 132.53125 380.78125 L 132.53125 398.78125 L 168.53125 398.78125 L 168.53125 416.78125 L 186.53125 416.78125 L 186.53125 434.78125 L 204.53125 434.78125 L 204.53125 452.78125 L 222.53125 452.78125 L 222.53125 434.78125 L 240.53125 434.78125 L 240.53125 416.78125 L 276.53125 416.78125 L 276.53125 434.78125 L 312.53125 434.78125 L 312.53125 416.78125 L 348.53125 416.78125 L 348.53125 434.78125 L 366.53125 434.78125 L 384.53125 434.78125 L 384.53125 398.78125 L 402.53125 398.78125 L 402.53125 380.78125 L 438.53125 380.78125 L 438.53125 398.78125 L 456.53125 398.78125 L 456.53125 434.78125 L 474.53125 434.78125 L 492.53125 434.78125 L 492.53125 398.78125 L 510.53125 398.78125 L 510.53125 380.78125 L 546.53125 380.78125 L 546.53125 398.78125 L 564.53125 398.78125 L 564.53125 434.78125 L 582.53125 434.78125 L 582.53125 452.78125 L 600.53125 452.78125 L 600.53125 434.78125 L 618.53125 434.78125 L 618.53125 416.78125 L 690.53125 416.78125 L 690.53125 434.78125 L 708.53125 434.78125 L 708.53125 452.78125 L 726.53125 452.78125 L 726.53125 434.78125 L 744.53125 434.78125 L 744.53125 416.78125 L 834.53125 416.78125 L 834.53125 434.78125 L 852.53125 434.78125 L 852.53125 452.78125 L 870.53125 452.78125 L 870.53125 506.78125 L 888.53125 506.78125 L 888.53125 488.78125 L 924.53125 488.78125 L 924.53125 506.78125 L 942.53125 506.78125 L 942.53125 560.78125 L 888.53125 560.78125 L 888.53125 542.78125 L 870.53125 542.78125 L 870.53125 560.78125 L 816.53125 560.78125 L 816.53125 542.78125 L 780.53125 542.78125 L 780.53125 560.78125 L 744.53125 560.78125 L 744.53125 542.78125 L 726.53125 542.78125 L 726.53125 524.78125 L 708.53125 524.78125 L 708.53125 542.78125 L 690.53125 542.78125 L 690.53125 560.78125 L 618.53125 560.78125 L 618.53125 542.78125 L 600.53125 542.78125 L 600.53125 524.78125 L 582.53125 524.78125 L 582.53125 560.78125 L 528.53125 560.78125 L 528.53125 542.78125 L 510.53125 542.78125 L 510.53125 524.78125 L 492.53125 524.78125 L 492.53125 470.78125 L 474.53125 470.78125 L 456.53125 470.78125 L 456.53125 506.78125 L 474.53125 506.78125 L 474.53125 560.78125 L 420.53125 560.78125 L 420.53125 542.78125 L 402.53125 542.78125 L 402.53125 524.78125 L 384.53125 524.78125 L 384.53125 470.78125 L 366.53125 470.78125 L 366.53125 542.78125 L 348.53125 542.78125 L 348.53125 560.78125 L 258.53125 560.78125 L 258.53125 542.78125 L 240.53125 542.78125 L 240.53125 524.78125 L 222.53125 524.78125 L 204.53125 524.78125 L 204.53125 542.78125 L 186.53125 542.78125 L 186.53125 560.78125 L 96.53125 560.78125 L 96.53125 542.78125 L 78.53125 542.78125 L 78.53125 398.78125 L 96.53125 398.78125 L 96.53125 380.78125 z M 96.53125 398.78125 L 96.53125 524.78125 L 168.53125 524.78125 L 168.53125 506.78125 L 114.53125 506.78125 L 114.53125 452.78125 L 168.53125 452.78125 L 168.53125 434.78125 L 114.53125 434.78125 L 114.53125 398.78125 L 96.53125 398.78125 z M 168.53125 452.78125 L 168.53125 506.78125 L 186.53125 506.78125 L 186.53125 452.78125 L 168.53125 452.78125 z M 888.53125 506.78125 L 888.53125 524.78125 L 906.53125 524.78125 L 906.53125 506.78125 L 888.53125 506.78125 z M 744.53125 434.78125 L 744.53125 524.78125 L 762.53125 524.78125 L 762.53125 452.78125 L 816.53125 452.78125 L 816.53125 434.78125 L 744.53125 434.78125 z M 816.53125 452.78125 L 816.53125 524.78125 L 834.53125 524.78125 L 834.53125 452.78125 L 816.53125 452.78125 z M 618.53125 434.78125 L 618.53125 452.78125 L 672.53125 452.78125 L 672.53125 434.78125 L 618.53125 434.78125 z M 672.53125 452.78125 L 672.53125 506.78125 L 690.53125 506.78125 L 690.53125 452.78125 L 672.53125 452.78125 z M 672.53125 506.78125 L 618.53125 506.78125 L 618.53125 524.78125 L 672.53125 524.78125 L 672.53125 506.78125 z M 618.53125 506.78125 L 618.53125 452.78125 L 600.53125 452.78125 L 600.53125 506.78125 L 618.53125 506.78125 z M 510.53125 398.78125 L 510.53125 434.78125 L 492.53125 434.78125 L 492.53125 452.78125 L 510.53125 452.78125 L 510.53125 506.78125 L 528.53125 506.78125 L 528.53125 452.78125 L 546.53125 452.78125 L 546.53125 434.78125 L 528.53125 434.78125 L 528.53125 398.78125 L 510.53125 398.78125 z M 528.53125 506.78125 L 528.53125 524.78125 L 546.53125 524.78125 L 546.53125 506.78125 L 528.53125 506.78125 z M 402.53125 398.78125 L 402.53125 434.78125 L 384.53125 434.78125 L 384.53125 452.78125 L 402.53125 452.78125 L 402.53125 506.78125 L 420.53125 506.78125 L 420.53125 452.78125 L 438.53125 452.78125 L 438.53125 434.78125 L 420.53125 434.78125 L 420.53125 398.78125 L 402.53125 398.78125 z M 420.53125 506.78125 L 420.53125 524.78125 L 438.53125 524.78125 L 438.53125 506.78125 L 420.53125 506.78125 z M 312.53125 434.78125 L 312.53125 506.78125 L 330.53125 506.78125 L 330.53125 434.78125 L 312.53125 434.78125 z M 312.53125 506.78125 L 258.53125 506.78125 L 258.53125 524.78125 L 312.53125 524.78125 L 312.53125 506.78125 z M 258.53125 506.78125 L 258.53125 434.78125 L 240.53125 434.78125 L 240.53125 506.78125 L 258.53125 506.78125 z M 564.53125 470.78125 L 564.53125 506.78125 L 582.53125 506.78125 L 582.53125 470.78125 L 564.53125 470.78125 z "
+       transform="translate(0,28.362153)"
+       id="path3005" />
+    <path
+       transform="translate(1134,28.362153)"
+       d="M 1024,512 A 512,512 0 1 1 0,512 512,512 0 1 1 1024,512 z"
+       sodipodi:ry="512"
+       sodipodi:rx="512"
+       sodipodi:cy="512"
+       sodipodi:cx="512"
+       id="path3876"
+       style="fill:#42c7e2;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <flowRoot
+       transform="translate(1134,136.36215)"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#6f7a7c;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Fipps;-inkscape-font-specification:Fipps"
+       id="flowRoot3878"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3880"><rect
+           style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#6f7a7c;fill-opacity:1;fill-rule:evenodd;font-family:Fipps;-inkscape-font-specification:Fipps"
+           y="326.79272"
+           x="59.396969"
+           height="357.79602"
+           width="902.26825"
+           id="rect3882" /></flowRegion><flowPara
+         id="flowPara3884"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#6f7a7c;fill-opacity:1;fill-rule:evenodd;font-family:Fipps;-inkscape-font-specification:Fipps">button.</flowPara></flowRoot>  </g>
 </svg>
