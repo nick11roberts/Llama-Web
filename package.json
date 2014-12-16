@@ -1,0 +1,18 @@
+{
+  "name": "llama-button",
+
+  "version": "2.0.0",
+
+  "author": "Nicholas Roberts <nick.roberts.127.0.0.1@gmail.com>",
+
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nick11roberts/Llama-Web"
+  },
+
+  "dependencies": {
+    "qrand": "0.1.x"
+  }
+}

@@ -1,38 +1,35 @@
 function clickEvent(){
-	
-	// For llama size. ///////////////////
-    var windowWidth = window.innerWidth;
+
+  var windowWidth = window.innerWidth;
 	var windowHeight = window.innerHeight;
-    //////////////////////////////////////
-	
-	
-	var vertRand; 
-    var horizRand;
-    
-    
-    
-    var llama= document.createElement('img');
-    
-    llama.src= 'default_images/actualLlama.png';
-    llama.alt= 'Llama.';
-    llama.title= 'llama';
-    llama.className= 'llama';
-    
-    if (windowWidth >= windowHeight){
+
+	var vertRand;
+  var horizRand;
+
+
+
+  var llama= document.createElement('img');
+
+  llama.src= 'default_images/actualLlama.png';
+  llama.alt= 'Llama.';
+  llama.title= 'llama';
+  llama.className= 'llama';
+
+  if (windowWidth >= windowHeight){
 		llama.style.width = '4%';
 	}
 	else{
 		llama.style.height = '16%';
 	}
-	
-	vertRand = Math.round(Math.random() * (windowHeight ));//these adjustments are based on image proportions... 
-    horizRand = Math.round(Math.random() * (windowWidth ));
-    
-    
-    llama.style.top = vertRand + "px"; //may adjust this if image sizes change...
-    llama.style.left = horizRand + "px";
-    
-    document.body.appendChild(llama);
+
+	vertRand = Math.round(Math.random()*(windowHeight));
+  horizRand = Math.round(Math.random()*(windowWidth));
+
+
+  llama.style.top = vertRand + "px";
+  llama.style.left = horizRand + "px";
+
+  document.body.appendChild(llama);
 }
 
 function buttonSize(){
@@ -45,16 +42,12 @@ function buttonSize(){
 		button.style.width = buttonSize + '%';
 	}
 	else{
-		button.style.height = buttonSize + '%';		
+		button.style.height = buttonSize + '%';
 	}
-	
+
 }
 
-function themeApply(){
+function applyTheme(){
 	var theme = localStorage.getItem('llamaTheme');
-	//temporary. For debugging. 
-	window.alert(theme);
+	window.alert(theme); 	//temporary.
 }
-
-
-
