@@ -6,8 +6,6 @@ function clickEvent(){
 	var vertRand;
   var horizRand;
 
-
-
   var llama= document.createElement('img');
 
   llama.src= 'default_images/actualLlama.png';
@@ -22,15 +20,20 @@ function clickEvent(){
 		llama.style.height = '16%';
 	}
 
-	vertRand = Math.round(Math.random()*(windowHeight));
-  horizRand = Math.round(Math.random()*(windowWidth));
+	vertRand= Math.random()*(windowHeight);
+  horizRand= Math.random()*(windowWidth);
 
 
-  llama.style.top = vertRand + "px";
-  llama.style.left = horizRand + "px";
+
+  llama.style.top= vertRand + "px";
+  llama.style.left= horizRand + "px";
 
   document.body.appendChild(llama);
+
+
 }
+
+
 
 function buttonSize(){
 	var button = document.getElementById('button');
@@ -45,9 +48,4 @@ function buttonSize(){
 		button.style.height = buttonSize + '%';
 	}
 
-}
-
-function applyTheme(){
-	var theme = localStorage.getItem('llamaTheme');
-	window.alert(theme); 	//temporary.
 }
