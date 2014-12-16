@@ -15,9 +15,9 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="actualLlama.svg"
-   inkscape:export-filename="/home/nikka/Desktop/llamabuilder.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="/home/nikka/Desktop/Llama/QuantumLlama/mobile/src/main/assets/web/Llama-Web/default_images/actualLlama.png"
+   inkscape:export-xdpi="162.53607"
+   inkscape:export-ydpi="162.53607">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,17 +55,17 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="opacity:1;fill:#ccc0b0;fill-opacity:1;stroke:#42c7e2;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:62.99998326000000048;marker-start:none;marker-mid:none"
-       d="m 86.923118,231.46143 79.673392,-54.5483 1.81075,-95.459508 50.70126,177.281958 7.24304,231.83025 340.42267,-10.90966 3.62153,-57.27571 56.13352,120.00625 -16.29682,70.91278 -66.99809,125.46109 3.62152,87.27727 -28.97214,163.64487 9.05379,-139.09815 -85.10567,-139.09815 -79.67339,35.4564 -95.97023,-30.00157 -10.86455,261.83182 -82.5234,-511.97558 -46.04049,-107.14756 14.48607,-65.45795 16.29683,-43.63865 z"
-       id="path2985"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccc" />
-    <path
        sodipodi:nodetypes="cccccccccccccccccccccc"
        inkscape:connector-curvature="0"
        id="path3776"
        d="m 94.92312,233.46143 79.67339,-54.5483 1.81075,-95.45951 50.70126,177.28196 7.24304,231.83025 340.42267,-10.90966 3.62153,-57.27571 56.13352,120.00625 -16.29682,70.91278 -66.99809,125.46109 3.62152,87.27727 -28.97214,163.64485 9.05379,-139.09813 -85.10567,-139.09815 -79.67339,35.4564 -95.97023,-30.00157 -10.86455,261.83185 -82.5234,-511.97561 -46.04049,-107.14756 14.48607,-65.45795 16.29683,-43.63865 z"
        style="fill:#42c7e2;fill-opacity:1;stroke:#ccc0b0;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:62.99998326000000048;marker-start:none;marker-mid:none;opacity:1" />
+    <path
+       style="opacity:1;fill:#ccc0b0;fill-opacity:1;stroke:#42c7e2;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:62.99998326000000048;marker-start:none;marker-mid:none"
+       d="m 86.923118,231.46143 79.673392,-54.5483 1.81075,-95.459508 50.70126,177.281958 7.24304,231.83025 340.42267,-10.90966 3.62153,-57.27571 56.13352,120.00625 -16.29682,70.91278 -66.99809,125.46109 3.62152,87.27727 -28.97214,163.64487 9.05379,-139.09815 -85.10567,-139.09815 -79.67339,35.4564 -95.97023,-30.00157 -10.86455,261.83182 -82.5234,-511.97558 -46.04049,-107.14756 14.48607,-65.45795 16.29683,-43.63865 z"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccc" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot4131"
