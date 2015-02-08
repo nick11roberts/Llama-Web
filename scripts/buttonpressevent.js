@@ -1,19 +1,20 @@
 function clickEvent(){
 
-  var windowWidth = window.innerWidth;
-	var windowHeight = window.innerHeight;
+	var windowWidth = window.innerWidth;
+  	var windowHeight = window.innerHeight;
 
 	var vertRand;
-  var horizRand;
+  	var horizRand;
+  	var rotationRand;
 
-  var llama= document.createElement('img');
+  	var llama= document.createElement('img');
 
-  llama.src= 'default_images/actualLlama.png';
-  llama.alt= 'Llama.';
-  llama.title= 'llama';
-  llama.className= 'llama';
+  	llama.src= 'default_images/actualLlama.png';
+  	llama.alt= 'Llama.';
+  	llama.title= 'llama';
+  	llama.className= 'llama';
 
-  if (windowWidth >= windowHeight){
+	if (windowWidth >= windowHeight){
 		llama.style.width = '4%';
 	}
 	else{
@@ -21,14 +22,16 @@ function clickEvent(){
 	}
 
 	vertRand= Math.random()*(windowHeight);
-  horizRand= Math.random()*(windowWidth);
+  	horizRand= Math.random()*(windowWidth);
+  	rotationRand= Math.random()* 360;
 
 
 
-  llama.style.top= vertRand + "px";
-  llama.style.left= horizRand + "px";
+  	llama.style.top= vertRand + "px";
+  	llama.style.left= horizRand + "px";
+  	llama.style.transform= "rotate(" + rotationRand + "deg)";
 
-  document.body.appendChild(llama);
+  	document.body.appendChild(llama);
 
 
 }
